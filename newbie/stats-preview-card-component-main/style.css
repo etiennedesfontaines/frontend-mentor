@@ -21,7 +21,6 @@ h1 {
 	color: var(--heading-stats-main);
 	font-family: var(--font-inter);
 	font-size: calc(2.4rem + 1vw);
-	/* font-size: 2.8rem; */
 	padding: 1rem;
 }
 span {
@@ -31,7 +30,6 @@ p {
 	color: var(--copy-body);
 	font-family: var(--font-inter);
 	font-size: calc(1.4rem + 0.2vw);
-	/* font-size: 1.5rem; */
 	font-weight: 400;
 }
 main {
@@ -99,11 +97,46 @@ a {
 	color: var(--Background-accent);
 }
 /*
-- Ipad: 768px -
+- Mobile: Landscape
+*/
+@media screen and (max-height: 411px) and (orientation: Landscape) {
+	main {
+		padding: 2.5rem;
+	}
+	.card-img {
+		height: 40rem;
+	}
+	.card-copy {
+		padding: 3rem 5rem;
+	}
+	h1 {
+		padding-top: 2rem;
+	}
+	h1 + p {
+		padding: 2rem 1rem;
+	}
+	.stats {
+		display: grid;
+	}
+	.stat {
+		grid-row: 1/2;
+	}
+}
+/*
+- Tablet: 768px -
 */
 @media screen and (min-width: 768px) {
+	main {
+		padding: 2rem;
+	}
 	.card-img {
 		height: 50vh;
+	}
+	.card-copy {
+		padding: 4rem 6rem;
+	}
+	h1 + p {
+		padding: 2rem 1rem;
 	}
 	.stats {
 		display: grid;
@@ -117,7 +150,7 @@ a {
 /*
 - Desktop: 1440px - 
 */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
 	main {
 		display: flex;
 		justify-content: center;
@@ -125,12 +158,12 @@ a {
 	}
 	.card {
 		display: flex;
-		height: 54.5vh;
-		width: 80vw;
+		height: 52rem;
+		width: 92vw;
 	}
 	h1 {
 		padding-top: 0;
-		padding-right: 4rem;
+		padding-right: 5.5rem;
 	}
 	h1 + p {
 		padding: 2rem 12rem 2rem 1rem;
@@ -156,5 +189,14 @@ a {
 
 	.stat + p {
 		padding: 0;
+	}
+}
+@media screen and (min-width: 1600px) {
+	.card {
+		height: 52rem;
+		width: 80vw;
+	}
+	h1 {
+		padding-right: 4rem;
 	}
 }
