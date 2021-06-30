@@ -8,7 +8,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Solution screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
