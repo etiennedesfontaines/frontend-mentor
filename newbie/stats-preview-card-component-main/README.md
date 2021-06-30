@@ -20,7 +20,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 ## Overview
 
-A challenge to build a card componenet to a client Brief. Solution coded by Etienne Desfontaines, using HTML and CSS.
+A challenge to build a card componenet to a client's Brief. Solution coded by Etienne Desfontaines, using HTML and CSS.
 
 ### The challenge
 
@@ -45,9 +45,13 @@ Users should be able to:
 
 I chose to follow a Mobile-first workflow.
 
-My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to best structure my HTML to support the CSS that was to follow.
+My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to structure my HTML to support the CSS styling required.
 
-Once the HTML was done, I focused on the mobile styling, working from top to bottom. And then on the desktop styling. When both were done I used my browser dev tools to check a few more devices and orientations, and made any adjustments necessary to ensure responsiveness.
+Once the HTML was done, I focused first on the mobile styling, then on desktop, working from top to bottom on each.
+
+I then used my browser dev tools to check the card component for responsiveness on a few other devices and oriantations, making any adjustmes that seemed necessary. I recognize this was not requested by the brief, but decided that were it a client brief I would have maede the extra time and effort to ensure greater responsiveness, so I treated it in the same manner.
+
+Finally I refactored my code - simplifying obtuse sections and removing reduntant comments - and refined my process documentation.
 
 ### Built with
 
