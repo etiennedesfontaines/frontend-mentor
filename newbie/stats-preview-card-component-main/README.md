@@ -1,91 +1,117 @@
-# Frontend Mentor - Stats preview card component
+# Frontend Mentor - Stats preview card component solution, by Etienne Desfontaines
 
-![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
-## Welcome! 👋
+Frontend Mentor challenges are aimed at improving coding skills by challenging it's users to build projects from realistic briefs.
 
-Thanks for checking out this front-end coding challenge.
+## Table of contents
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Solution screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## Overview
 
-## The challenge
+A challenge to build a card componenet to a client's Brief. Solution coded by Etienne Desfontaines, using HTML and CSS.
 
-Your challenge is to build out this card component and get it looking as close to the design as possible.
+### The challenge
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+Build out this card componenet and get it looking as close to the design as possible - use any tools you like.
 
-Your users should be able to:
+Follow the supplied style guide. (./style-guide.md)
 
-- View the optimal layout depending on their device's screen size
+Users should be able to:
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+- View the optimal layout depending on their device's screen size.
 
-## Where to find everything
+### Screenshot
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+![](./screenshots/stats-preview-component-desktop-screenshot.png)
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+### Links
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+- Solution URL: [Solution URL](https://github.com/etiennedesfontaines/frontend-mentor/tree/main/newbie/stats-preview-card-component-main)
+- Live Site URL: [Live Site URL](https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/)
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## My process
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+I chose to follow a Mobile-first workflow.
 
-## Building your project
+My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to structure my HTML to support the CSS styling required.
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+Once the HTML was done, I focused first on the mobile styling, then on desktop, working from top to bottom on each.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+I then used my browser dev tools to check the card component for responsiveness on a few other devices and oriantations, making any adjustmes that seemed necessary. I recognize this was not requested by the brief, but decided that were it a client brief I would have maede the extra time and effort to ensure greater responsiveness, so I treated it in the same manner.
 
-## Deploying your project
+Finally I refactored my code - simplifying obtuse sections and removing reduntant comments - and refined my process documentation.
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+### Built with
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+### What I learned
 
-## Create a custom `README.md`
+General:
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+- It's important to plan a project before initiating the build.
+  The plan infroms the HTML structure and semantics, and the HTML structure informs the CSS styling.
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+  I intially started building without planning. My code, as a restult, very quickly became messy and unecessarily. I deleted it and, after planning my approach, begun again. The outcome was a better solution accomplished using half the amount of code.
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- Process documentation is a skill and a useful learning tool.
+  It helps to better understand the problem at hand, create practical solutions, and understand the tools you have chosen to solve it with.
 
-## Submitting your solution
+CSS:
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- Setting an images width to 100% and height to auto maintains the images aspect ratio.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+```CSS
+img{
+  width: 100%;
+  height: auto;
+}
+```
 
-## Sharing your solution
+- The CSS Box model.
 
-There are multiple places you can share your solution:
+Git and Github:
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+- Creating repos, pull requests etc.
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
+- Using the command line to create a powerful workflow between VS Code, Git and Github.
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+### Continued development
 
-## Got feedback for us?
+I feel what is most important for my growth as a developer right now, outside of my regular daily studies, is to build as many projects as possible. And to become a more active member of the dev community, by doing code reviews, getting involved in conversations, and blogging.
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+### Useful resources
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
+- [The CSS Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) - This really helped me fully understand the CSS box model. I highly recomend it to anyone feeling frustrated with their style declarations not giving them the results they intended - There may just be a sneaky collapsing margin in your way...
 
-**Have fun building!** 🚀
+- [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Everything you need to know about Flexbox. Clear and concise!
+
+- [RGB and Hex colors explained](hhttps://www.youtube.com/watch?v=hhI4x6hx21s), [Images, pixels and rgb](hhttps://www.youtube.com/watch?v=15aqFQQVBWU) - The combination of these two videos really helped me better undrstand digital color.
+
+- [A complete guide to submitting your frontend mentor solutions](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) - This guide helped me feel confident that I was following the best practices for this project submission.
+
+## Author
+
+- Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
+- GitHub - [etiennedesfontaines](https://github.com/etiennedesfontaines)
+- Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
+- Website - [Etienne Desfontaines](#)
+
+## Acknowledgments
+
+To the dev community as a whole - Thank you for all the incredible resources that make self-study possible.
