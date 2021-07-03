@@ -1,0 +1,103 @@
+/*
+- desktop: >1440px
+*/
+main {
+	min-height: 100vh;
+	@include flex(row, center, center, nowrap);
+}
+.card {
+	@include flex(row, flex-start, stretch, wrap);
+	border-radius: 8px;
+	overflow: hidden;
+	width: 65.5%;
+}
+section {
+	padding: 6rem;
+	flex: 1 1 30rem;
+	@include flex(column, space-between, flex-start, nowrap);
+}
+img {
+	width: 7.8rem;
+	height: auto;
+}
+
+h1,
+p,
+img {
+	padding-bottom: 4rem;
+}
+p {
+	padding-bottom: 10rem;
+	line-height: 1.8;
+}
+.sedan {
+	background: $sedan-orange;
+	border: 0.2rem solid $sedan-orange;
+
+	button {
+		color: $sedan-orange;
+		border: 0.2rem solid $sedan-orange;
+
+		&:hover {
+			border: 0.2rem solid $light-gray;
+			background: transparent;
+			color: $light-gray;
+		}
+	}
+}
+.suv {
+	background: $suv-cyan;
+	border: 0.2rem solid $suv-cyan;
+
+	button {
+		color: $suv-cyan;
+		border: 0.2rem solid $suv-cyan;
+
+		&:hover {
+			border: 0.2rem solid $light-gray;
+			background: transparent;
+			color: $light-gray;
+		}
+	}
+}
+.luxuary {
+	background: $luxury-very-dark-cyan;
+	border: 0.2rem solid $luxury-very-dark-cyan;
+
+	button {
+		color: $luxury-very-dark-cyan;
+		border: 0.2rem solid $luxury-very-dark-cyan;
+
+		&:hover {
+			border: 0.2rem solid $light-gray;
+			background: transparent;
+			color: $light-gray;
+		}
+	}
+}
+/*
+Desktop & tablets: =<1440px
+*/
+@media screen and (max-width: 1440px) {
+	.card {
+		width: 73%;
+	}
+}
+@media screen and (max-width: 1232px) {
+	.card {
+		width: 82%;
+	}
+}
+@media screen and (max-width: 1097px) {
+	.card {
+		width: 91%;
+	}
+}
+@media screen and (max-width: 1029px) {
+	main {
+		padding: 1rem;
+	}
+	.card {
+		width: 100%;
+	}
+}
