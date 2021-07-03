@@ -1,0 +1,37 @@
+/*
+-Mobile: 375px
+*/
+@media screen and (max-width: 375px), (max-width: 411px) {
+	main {
+		padding: 8rem 2rem;
+	}
+
+	p {
+		padding-bottom: 2rem;
+	}
+}
+
+@media screen and (max-height: 375px) and (orientation: landscape) {
+	main {
+		padding: 2rem 10rem;
+	}
+	p {
+		padding-bottom: 2rem;
+	}
+	section {
+		flex: 1 1 40rem;
+		padding: 2rem;
+	}
+}
+@media screen and (max-height: 411px) and (orientation: landscape) {
+	main {
+		padding: 2rem 10rem;
+	}
+	p {
+		padding-bottom: 2rem;
+	}
+	section {
+		flex: 1 1 40rem;
+		padding: 4rem;
+	}
+}

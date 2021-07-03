@@ -83,7 +83,6 @@ h1 + p {
 footer {
 	background: var(--Background-secondary);
 	color: var(--heading-stats-main);
-	font-size: 1.3rem;
 	font-size: calc(1.2rem + 0.25vw);
 	height: 5vh;
 	text-align: center;

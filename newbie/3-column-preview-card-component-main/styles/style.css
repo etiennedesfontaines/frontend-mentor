@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+h1 {
+  font-size: calc(3rem + 1.1vw);
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+P {
+  font-size: calc(1.4rem + 0.2vw);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+button {
+  background: #f2f2f2;
+  font-size: calc(1.4rem + 0.2vw);
+  padding: 1.8rem 4.2rem;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+footer {
+  color: #1f1f2b;
+  font-size: calc(1.2rem + 0.25vw);
+  height: 5vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+/*
+- desktop: >1440px
+*/
+main {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 65.5%;
+}
+
+section {
+  padding: 6rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+img {
+  width: 7.8rem;
+  height: auto;
+}
+
+h1,
+p,
+img {
+  padding-bottom: 4rem;
+}
+
+p {
+  padding-bottom: 10rem;
+  line-height: 1.8;
+}
+
+.sedan {
+  background: #e38826;
+  border: 0.2rem solid #e38826;
+}
+
+.sedan button {
+  color: #e38826;
+  border: 0.2rem solid #e38826;
+}
+
+.sedan button:hover {
+  border: 0.2rem solid #f2f2f2;
+  background: transparent;
+  color: #f2f2f2;
+}
+
+.suv {
+  background: #006970;
+  border: 0.2rem solid #006970;
+}
+
+.suv button {
+  color: #006970;
+  border: 0.2rem solid #006970;
+}
+
+.suv button:hover {
+  border: 0.2rem solid #f2f2f2;
+  background: transparent;
+  color: #f2f2f2;
+}
+
+.luxuary {
+  background: #004241;
+  border: 0.2rem solid #004241;
+}
+
+.luxuary button {
+  color: #004241;
+  border: 0.2rem solid #004241;
+}
+
+.luxuary button:hover {
+  border: 0.2rem solid #f2f2f2;
+  background: transparent;
+  color: #f2f2f2;
+}
+
+/*
+Desktop & tablets: =<1440px
+*/
+@media screen and (max-width: 1440px) {
+  .card {
+    width: 73%;
+  }
+}
+
+@media screen and (max-width: 1232px) {
+  .card {
+    width: 82%;
+  }
+}
+
+@media screen and (max-width: 1097px) {
+  .card {
+    width: 91%;
+  }
+}
+
+@media screen and (max-width: 1029px) {
+  main {
+    padding: 1rem;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+/*
+-Mobile: 375px
+*/
+@media screen and (max-width: 375px), (max-width: 411px) {
+  main {
+    padding: 8rem 2rem;
+  }
+  p {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-height: 375px) and (orientation: landscape) {
+  main {
+    padding: 2rem 10rem;
+  }
+  p {
+    padding-bottom: 2rem;
+  }
+  section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-height: 411px) and (orientation: landscape) {
+  main {
+    padding: 2rem 10rem;
+  }
+  p {
+    padding-bottom: 2rem;
+  }
+  section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+    padding: 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
