@@ -20,7 +20,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 ## Overview
 
-A challenge to build a card componenet to a client's Brief. Solution coded by Etienne Desfontaines, using HTML and SCSS.
+A challenge to build a card componenet to a client's Brief. Solution coded by Etienne Desfontaines, using HTML and Sass.
 
 ### The challenge
 
