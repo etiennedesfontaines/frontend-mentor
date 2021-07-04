@@ -30,9 +30,7 @@ Follow the supplied [style guide.](./style-guide.md)
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size:
-  desktop: 1440px wide.
-  mobile: 375px wide.
+- View the optimal layout depending on their device's screen size.
 
 - See hover states for interactive elements.
 
