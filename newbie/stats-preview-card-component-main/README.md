@@ -9,7 +9,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Solution screenshot](#screenshot)
-  - [Links](#links)
+  - [Project links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,9 +24,9 @@ A challenge to build a card componenet to a client's Brief. Solution coded by Et
 
 ### The challenge
 
-Build out this card componenet and get it looking as close to the design as possible - use any tools you like.
+Build out this card componenet and get it looking as close to the [design](./design) as possible - use any tools you like.
 
-Follow the supplied style guide. (./style-guide.md)
+Follow the supplied [style guide.](./style-guide.md)
 
 Users should be able to:
 
