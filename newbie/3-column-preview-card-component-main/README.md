@@ -8,7 +8,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshot](#solution-screenshot)
   - [Project links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -36,7 +36,7 @@ Users should be able to:
 
 - See hover states for interactive elements.
 
-### Screenshot
+### Solution screenshot
 
 ![](./screenshots/3-column-preview-card-component-desktop-screenshot.png)
 
