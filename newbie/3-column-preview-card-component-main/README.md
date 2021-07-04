@@ -8,7 +8,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Solution screenshot](#solution-screenshot)
   - [Project links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -30,13 +30,11 @@ Follow the supplied [style guide.](./style-guide.md)
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size:
-  desktop: 1440px wide.
-  mobile: 375px wide.
+- View the optimal layout depending on their device's screen size.
 
 - See hover states for interactive elements.
 
-### Screenshot
+### Solution screenshot
 
 ![](./screenshots/3-column-preview-card-component-desktop-screenshot.png)
 
