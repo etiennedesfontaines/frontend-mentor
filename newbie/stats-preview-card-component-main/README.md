@@ -8,7 +8,7 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Solution screenshot](#screenshot)
+  - [Solution screenshot](#solution-screenshot)
   - [Project links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -32,7 +32,7 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size.
 
-### Screenshot
+### Solution screenshot
 
 ![](./screenshots/stats-preview-component-desktop-screenshot.png)
 
