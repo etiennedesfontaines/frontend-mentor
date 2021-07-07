@@ -55,7 +55,7 @@ Users should be able to:
 
 ### What I learned
 
-Extensive planning makes for well structured HTML and fluid styling.
+Sound planning makes for well structured HTML and fluid styling.
 
 ### Continued development
 
