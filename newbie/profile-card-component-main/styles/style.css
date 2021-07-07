@@ -1,1 +1,323 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+h1 {
+  font-size: calc(1.6rem + 0.2vw);
+  color: #2d3248;
+}
+
+span {
+  font-weight: normal;
+  color: #969696;
+}
+
+h1 + p {
+  font-size: calc(1.3rem + 0.2vw);
+  color: #969696;
+}
+
+h2 {
+  font-size: calc(1rem + 0.2vw);
+  letter-spacing: 0.8px;
+  font-weight: normal;
+  color: #969696;
+}
+
+h2 + p {
+  font-size: calc(1.6rem + 0.2vw);
+  font-weight: 700;
+  color: #2d3248;
+}
+
+.victor {
+  width: calc(110px + 0.5vw);
+  height: auto;
+  border: 0.6rem solid white;
+  border-radius: 50%;
+}
+
+body {
+  min-height: 100vh;
+  background: #19a2ae;
+  position: relative;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.background {
+  position: relative;
+  max-height: 105vh;
+  overflow: hidden;
+}
+
+.bubble-top {
+  position: absolute;
+  z-index: -1;
+}
+
+.bubble-bottom {
+  position: absolute;
+  z-index: -1;
+}
+
+.profile {
+  background: white;
+  width: calc(32.3rem + 4vw);
+  height: calc(37.5rem + 0.5vw);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.pattern {
+  position: relative;
+  height: 37.43%;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.victor {
+  width: calc(116px +1.2vw);
+  height: auto;
+  position: absolute;
+  bottom: -40%;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.details {
+  height: 38.77%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-bottom: 0.15rem solid rgba(150, 150, 150, 0.3);
+}
+
+.details p {
+  padding: 1rem 0rem 2.5rem 0rem;
+}
+
+.stats {
+  height: 23.8%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2;
+      grid-template-rows: 1fr 2;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 0rem 2rem;
+}
+
+.stats p {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: calc(1rem + 0.25vw);
+  color: white;
+  height: 5vh;
+}
+
+/*
+-- Media Queries: Tablet & Mobile --
+*/
+@media screen and (max-width: 800px) {
+  .bubble-top {
+    top: -15%;
+    left: -75%;
+  }
+  .bubble-bottom {
+    bottom: -22%;
+    right: -70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bubble-top {
+    top: -35%;
+    left: -75%;
+  }
+  .bubble-bottom {
+    bottom: -40%;
+    right: -70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .bubble-top {
+    top: -60%;
+    left: -190%;
+  }
+  .bubble-bottom {
+    bottom: -70%;
+    right: -170%;
+  }
+}
+
+@media screen and (max-height: 414px) and (orientation: landscape) {
+  .profile {
+    width: calc(37.5rem + 0.5vw);
+    height: calc(32.3rem + 2.5vw);
+    margin: 2rem;
+  }
+  .bubble-top {
+    top: -165%;
+    left: -78%;
+  }
+  .bubble-bottom {
+    bottom: -190%;
+    right: -60%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bubble-top {
+    top: -90%;
+    left: -198%;
+  }
+  .bubble-bottom {
+    bottom: -85%;
+    right: -200%;
+  }
+}
+
+@media screen and (max-height: 375px) and (orientation: landscape) {
+  .bubble-top {
+    top: -165%;
+    left: -105%;
+  }
+  .bubble-bottom {
+    bottom: -205%;
+    right: -70%;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) {
+  .bubble-top {
+    top: -55%;
+    left: -215%;
+  }
+  .bubble-bottom {
+    bottom: -60%;
+    right: -200%;
+  }
+}
+
+@media screen and (min-width: 812px) and (max-height: 375px) and (orientation: landscape) {
+  .bubble-top {
+    top: -180%;
+    left: -70%;
+  }
+  .bubble-bottom {
+    bottom: -205%;
+    right: -60%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-height: 768px) and (orientation: landscape) {
+  .bubble-top {
+    top: -60%;
+    left: -45%;
+  }
+  .bubble-bottom {
+    bottom: -75%;
+    right: -40%;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-height: 800px) and (orientation: landscape) {
+  .bubble-top {
+    top: -60%;
+    left: -25%;
+  }
+  .bubble-bottom {
+    bottom: -66%;
+    right: -26%;
+  }
+}
+
+/*
+-- Desktop --
+*/
+@media screen and (min-width: 1440px) {
+  .bubble-top {
+    top: -65%;
+    left: -18%;
+  }
+  .bubble-bottom {
+    bottom: -74%;
+    right: -15%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .bubble-top {
+    top: -38%;
+    left: -10%;
+  }
+  .bubble-bottom {
+    bottom: -45.5%;
+    right: -8%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
