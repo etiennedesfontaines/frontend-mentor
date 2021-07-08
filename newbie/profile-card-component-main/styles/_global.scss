@@ -20,8 +20,9 @@ body {
 	font-family: "Kumbh Sans", sans-serif;
 }
 h1 {
-	font-size: calc(1.6rem + 0.2vw);
+	font-size: calc(1.7rem + 0.3vw);
 	color: $very-dark-blue;
+	letter-spacing: 0.3px;
 }
 span {
 	font-weight: normal;
@@ -40,12 +41,12 @@ h2 {
 }
 
 h2 + p {
-	font-size: calc(1.6rem + 0.2vw);
+	font-size: calc(1.7rem + 0.3vw);
 	font-weight: 700;
 	color: $very-dark-blue;
 }
 .victor {
-	width: calc(110px + 0.5vw);
+	width: calc(108px + 1vw);
 	height: auto;
 	border: 0.6rem solid white;
 	border-radius: 50%;
