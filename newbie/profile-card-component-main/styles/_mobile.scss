@@ -6,6 +6,7 @@ body {
 main {
 	@include flex(row);
 	min-height: 100vh;
+	padding: 0rem 2.5rem;
 }
 .background {
 	position: relative;
@@ -22,10 +23,11 @@ main {
 }
 .profile {
 	background: white;
-	width: calc(32.3rem + 4vw);
-	height: calc(37.5rem + 0.5vw);
+	width: calc(32.3rem + 6vw);
+	height: calc(37.5rem + 4vw);
 	border-radius: 15px;
 	overflow: hidden;
+	box-shadow: 0 0 8px 0 hsla(186, 42%, 5%);
 }
 .pattern {
 	position: relative;
@@ -33,11 +35,10 @@ main {
 	background-image: url("../images/bg-pattern-card.svg");
 	background-position: center;
 	background-size: cover;
+	border-bottom: 0.15rem solid hsla(185, 75%, 39%, 0.4);
 }
 
 .victor {
-	width: calc(116px +1.2vw);
-	height: auto;
 	position: absolute;
 	bottom: -40%;
 	right: 50%;
@@ -77,8 +78,8 @@ footer {
 */
 @media screen and (max-width: 800px) {
 	.bubble-top {
-		top: -15%;
-		left: -75%;
+		top: -18%;
+		left: -76%;
 	}
 	.bubble-bottom {
 		bottom: -22%;
@@ -126,8 +127,8 @@ footer {
 		left: -198%;
 	}
 	.bubble-bottom {
-		bottom: -85%;
-		right: -200%;
+		bottom: -82%;
+		right: -195%;
 	}
 }
 
