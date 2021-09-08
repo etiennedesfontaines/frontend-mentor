@@ -43,16 +43,19 @@ main {
 	overflow: hidden;
 	text-align: center;
 }
+#desktop-header-img {
+	display: none;
+}
 .card-img {
-	background-image: linear-gradient(
-			hsla(277, 64%, 61%, 0.5),
-			hsl(277, 64%, 61%, 0.5)
-		),
-		url(./images/image-header-mobile.jpg);
-	background-size: cover;
-	background-position: center;
+	background-color: var(--Background-accent);
 	height: 25rem;
 	width: 100%;
+}
+#mobile-header-img {
+	height: 100%;
+	width: auto;
+	mix-blend-mode: multiply;
+	opacity: 0.8;
 }
 .card-copy {
 	width: 100%;
@@ -103,6 +106,9 @@ a {
 	.card-img {
 		height: 40rem;
 	}
+	#mobile-header-img {
+		width: 100%;
+	}
 	.card-copy {
 		padding: 3rem 5rem;
 	}
@@ -120,6 +126,14 @@ a {
 	}
 }
 /*
+- mobile 414px
+*/
+@media screen and (min-width: 414px) {
+	#mobile-header-img {
+		width: 100%;
+	}
+}
+/*
 - Tablet: 768px -
 */
 @media screen and (min-width: 768px) {
@@ -128,6 +142,9 @@ a {
 	}
 	.card-img {
 		height: 50vh;
+	}
+	#mobile-header-img {
+		width: 100%;
 	}
 	.card-copy {
 		padding: 4rem 6rem;
@@ -144,6 +161,16 @@ a {
 		grid-row: 1/2;
 	}
 }
+
+/*
+- Tablet landscape
+*/
+@media screen and (max-height: 1024px) and (orientation: landscape) {
+	.card {
+		margin: 0rem 10rem 0rem 10rem;
+	}
+}
+
 /*
 - Desktop: 1440px - 
 */
@@ -169,13 +196,18 @@ a {
 		order: 1;
 		width: 100%;
 		height: auto;
-		background-image: linear-gradient(
-				hsla(277, 64%, 61%, 0.5),
-				hsla(277, 64%, 61%, 0.5)
-			),
-			url(./images/image-header-desktop.jpg);
-		background-position: center;
-		background-size: cover;
+		background-color: var(--Background-accent);
+	}
+	#mobile-header-img {
+		display: none;
+	}
+	#desktop-header-img {
+		display: block;
+		height: 100%;
+		width: 100%;
+
+		mix-blend-mode: multiply;
+		opacity: 0.8;
 	}
 	.card-copy {
 		text-align: left;
