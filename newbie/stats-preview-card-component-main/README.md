@@ -1,8 +1,8 @@
 # Frontend Mentor - Stats preview card component solution, by Etienne Desfontaines
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+This is [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines) solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
-Frontend Mentor challenges are aimed at improving coding skills by challenging it's users to build projects from realistic briefs.
+Frontend Mentor challenges are aimed at improving coding skills by challenging its users to build projects from realistic briefs.
 
 ## Table of contents
 
@@ -20,11 +20,11 @@ Frontend Mentor challenges are aimed at improving coding skills by challenging i
 
 ## Overview
 
-A challenge to build a card componenet to a client's Brief. Solution coded by Etienne Desfontaines, using HTML and CSS.
+A challenge to build a card component to a client's brief. Solution coded by Etienne Desfontaines, using HTML and CSS.
 
 ### The challenge
 
-Build out this card componenet and get it looking as close to the [design](./design) as possible - use any tools you like.
+Build out this card component and get it looking as close to the [design](./design) as possible - use any tools you like.
 
 Follow the supplied [style guide.](./style-guide.md)
 
@@ -47,11 +47,11 @@ I chose to follow a Mobile-first workflow.
 
 My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to structure my HTML to support the CSS styling required.
 
-Once the HTML was done, I focused first on the mobile styling, then on desktop, working from top to bottom on each.
+Once the HTML was done, I focused on the mobile styling, then on the desktop styling, working from top to bottom on each.
 
-I then used my browser dev tools to check the card component for responsiveness on a few other devices and oriantations, making any adjustmes that seemed necessary. I recognize this was not requested by the brief, but decided that were it a client brief I would have maede the extra time and effort to ensure greater responsiveness, so I treated it in the same manner.
+I then used my browser dev tools to check the card component for responsiveness on a few other devices and orientations, making any adjustments that seemed necessary. I recognize this was not requested by the brief, but I decided that were it a client brief I would have made the extra time and effort to ensure greater responsiveness, so I treated it in the same manner.
 
-Finally I refactored my code - simplifying obtuse sections and removing reduntant comments - and refined my process documentation.
+Finally I refactored my code - simplifying obtuse sections and removing redundant comments - and refined my process documentation.
 
 ### Built with
 
@@ -67,7 +67,7 @@ General:
 - It's important to plan a project before initiating the build.
   The plan infroms the HTML structure and semantics, and the HTML structure informs the CSS styling.
 
-  I intially started building without planning. My code, as a restult, very quickly became messy and unecessarily. I deleted it and, after planning my approach, begun again. The outcome was a better solution accomplished using half the amount of code.
+  I initially started building without a plan. My code, as a result, very quickly became messy and unecessarily complicated. I deleted it and, after planning my approach, began again. The outcome was a better solution accomplished using half the amount of code.
 
 - Process documentation is a skill and a useful learning tool.
   It helps to better understand the problem at hand, create practical solutions, and understand the tools you have chosen to solve it with.
@@ -93,15 +93,15 @@ Git and Github:
 
 ### Continued development
 
-I feel what is most important for my growth as a developer right now, outside of my regular daily studies, is to build as many projects as possible. And to become a more active member of the dev community, by doing code reviews, getting involved in conversations, and blogging.
+I feel what is most important for my growth as a developer right now, outside of my regular daily studies, is to build as many projects as possible. And to become a more active member of the dev community, by doing code reviews, getting involved in conversations, asking for help and blogging.
 
 ### Useful resources
 
-- [The CSS Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) - This really helped me fully understand the CSS box model. I highly recomend it to anyone feeling frustrated with their style declarations not giving them the results they intended - There may just be a sneaky collapsing margin in your way...
+- [The CSS Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model) - This really helped me fully understand the CSS box model. I highly recommend it to anyone feeling frustrated with their style declarations not giving them the results they intended - There may just be a sneaky collapsing margin in your way...
 
 - [A complete guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Everything you need to know about Flexbox. Clear and concise!
 
-- [RGB and Hex colors explained](hhttps://www.youtube.com/watch?v=hhI4x6hx21s), [Images, pixels and rgb](hhttps://www.youtube.com/watch?v=15aqFQQVBWU) - The combination of these two videos really helped me better undrstand digital color.
+- [RGB and Hex colors explained](hhttps://www.youtube.com/watch?v=hhI4x6hx21s), [Images, pixels and rgb](hhttps://www.youtube.com/watch?v=15aqFQQVBWU) - The combination of these two videos helped me better undrstand digital color.
 
 - [A complete guide to submitting your frontend mentor solutions](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) - This guide helped me feel confident that I was following the best practices for this project submission.
 
@@ -110,7 +110,7 @@ I feel what is most important for my growth as a developer right now, outside of
 - Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
 - GitHub - [etiennedesfontaines](https://github.com/etiennedesfontaines)
 - Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-- Website - [Etienne Desfontaines](#)
+- Twitter - [@etdesfont](https://www.twitter.com/etdesfont)
 
 ## Acknowledgments
 

@@ -1,0 +1,26 @@
+/*Mobile*/
+.desktop-img {
+	display: none;
+}
+main {
+	padding: 15rem 2.5rem 10rem 2.5rem;
+}
+
+article {
+	position: relative;
+	padding: 0 2rem 3rem 2rem;
+}
+.images {
+	height: 10rem;
+	background-image: url(../images/bg-pattern-mobile.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h1 {
+	text-align: center;
+}
+.mobile-img {
+	position: absolute;
+	top: 0;
+	transform: translateY(-55%);
+}
