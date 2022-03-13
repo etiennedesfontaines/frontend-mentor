@@ -45,7 +45,7 @@ Users should be able to:
 
 I chose to follow a Mobile-first workflow.
 
-My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to structure my HTML to support the CSS styling required.
+My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to structure my HTML and plan my CSS.
 
 Once the HTML was done, I focused on the mobile styling, then on the desktop styling, working from top to bottom on each.
 
