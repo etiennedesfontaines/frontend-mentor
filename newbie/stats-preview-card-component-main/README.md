@@ -43,15 +43,16 @@ Users should be able to:
 
 ## My process
 
-I chose to follow a Mobile-first workflow.
+I chose to follow a mobile-first workflow.
 
-My initial step was to sketch a quick overview of the project on a piece of paper. It helped me deside how to structure my HTML and plan my CSS.
+My initial step was to sketch a quick overview of the project on a piece of paper. It helped me decide how to structure my HTML and plan my CSS.
 
 Once the HTML was done, I focused on the mobile styling, then on the desktop styling, working from top to bottom on each.
 
 I then used my browser dev tools to check the card component for responsiveness on a few other devices and orientations, making any adjustments that seemed necessary. I recognize this was not requested by the brief, but I decided that were it a client brief I would have made the extra time and effort to ensure greater responsiveness, so I treated it in the same manner.
 
-Finally I refactored my code - simplifying obtuse sections and removing redundant comments - and refined my process documentation.
+Finally I refactored my code - simplifying obtuse sections, removing redundant comments.
+After which I refined my process documentation.
 
 ### Built with
 
@@ -70,7 +71,7 @@ General:
   I initially started building without a plan. My code, as a result, very quickly became messy and unecessarily complicated. I deleted it and, after planning my approach, began again. The outcome was a better solution accomplished using half the amount of code.
 
 - Process documentation is a skill and a useful learning tool.
-  It helps to better understand the problem at hand, create practical solutions, and understand the tools you have chosen to solve it with.
+  It helps to better understand the problem at hand, create practical solutions, and understand the tools you have chosen to use.
 
 CSS:
 
