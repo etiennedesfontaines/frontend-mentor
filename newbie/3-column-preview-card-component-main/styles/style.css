@@ -10,11 +10,11 @@ html {
   font-family: "Lexend Deca", sans-serif;
 }
 
-.heading {
+h2 {
   font-size: calc(3rem + 1.1vw);
   color: #f2f2f2;
   text-transform: uppercase;
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Big Shoulders Display", sans-serif;
 }
 
 P {
@@ -96,7 +96,7 @@ main {
   width: 65.5%;
 }
 
-section {
+article {
   padding: 6rem;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 30rem;
@@ -123,7 +123,7 @@ img {
   height: auto;
 }
 
-.heading,
+h2,
 p,
 img {
   padding-bottom: 4rem;
@@ -231,7 +231,7 @@ Desktop & tablets: =<1440px
   p {
     padding-bottom: 2rem;
   }
-  section {
+  article {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 40rem;
             flex: 1 1 40rem;
@@ -246,7 +246,7 @@ Desktop & tablets: =<1440px
   p {
     padding-bottom: 2rem;
   }
-  section {
+  article {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 40rem;
             flex: 1 1 40rem;
