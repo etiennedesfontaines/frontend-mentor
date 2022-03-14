@@ -11,7 +11,7 @@ main {
 	overflow: hidden;
 	width: 65.5%;
 }
-section {
+article {
 	padding: 6rem;
 	flex: 1 1 30rem;
 	@include flex(column, space-between, flex-start, nowrap);
@@ -21,7 +21,7 @@ img {
 	height: auto;
 }
 
-.heading,
+h2,
 p,
 img {
 	padding-bottom: 4rem;
