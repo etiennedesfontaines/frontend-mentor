@@ -1,8 +1,8 @@
 # Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
-Frontend Mentor challenges are aimed at improving coding skills by challenging it's users to build projects from realistic briefs.
+Frontend Mentor challenges are aimed at improving coding skills by challenging its users to build projects from realistic briefs.
 
 ## Table of contents
 
@@ -144,7 +144,6 @@ A mixin is called as follows:
 - Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
 - GitHub - [etiennedesfontaines](https://github.com/etiennedesfontaines)
 - Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-- Website - [Etienne Desfontaines](#)
 
 ## Acknowledgments
 
