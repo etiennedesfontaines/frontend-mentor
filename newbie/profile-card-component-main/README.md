@@ -1,8 +1,8 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - Profile card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
 
-Frontend Mentor challenges are aimed at improving coding skills by challenging it's users to build projects from realistic briefs.
+Frontend Mentor challenges are aimed at improving coding skills by challenging its users to build projects from realistic briefs.
 
 ## Table of contents
 
@@ -43,7 +43,14 @@ Users should be able to:
 
 ## My process
 
-. Create new Github repo branch. 2. Paper-sketch project overview. 3. Structure HTML (semantically). 4. Styling (Sass). 5. Responsiveness (media queries). 6. Deploy site (Netlify). 7. Readme. 8. Push to github and submit on frontend mentore.
+1. Create new Github repo branch.
+2. Paper-sketch project overview.
+3. Structure HTML (semantically).
+4. Styling (Sass).
+5. Responsiveness (media queries).
+6. Deploy site (Netlify).
+7. Readme.
+8. Push to github and submit on frontend mentore.
 
 ### Built with
 
@@ -55,17 +62,17 @@ Users should be able to:
 
 ### What I learned
 
-Sound planning makes for well structured HTML and fluid styling.
+To make some designs responsive is more challenging. It requires attention to detail with proficient use of media queries.
 
 ### Continued development
 
-1. I would like to deepen my understanding of Sass, and become more fluent using it. I am finding it an extremely concise way to write CSS, and the compiler esures any styles declared are widely compatible.
+1. I would like to continue developing my use of sass and emmet.
 
-2. Continue challenging myslef with Frontend Mentore challenges.
+2. I intend to continue challenging and refining my skills through Frontend Mentor.
 
-3. Continue making time for code reviews.
+3. Deepening my JS problem solving skills through exercism.
 
-4. Become more active in dev communities.
+4. Teaching others, doing code reviews and making an effort to engage with the online dev community more regularly.
 
 ### Useful resources
 
@@ -76,7 +83,6 @@ Sound planning makes for well structured HTML and fluid styling.
 - Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
 - GitHub - [etiennedesfontaines](https://github.com/etiennedesfontaines)
 - Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-- Website - [Etienne Desfontaines](#)
 
 ## Acknowledgments
 
