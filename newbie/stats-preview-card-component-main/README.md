@@ -55,4 +55,4 @@ I learnt the basics of using Bash and the command line.
 
 ## Solution
 
-<a href="https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/" target="_blank">Live site URL</a>)
+<a href="https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/" target="_blank">Live site URL</a>
