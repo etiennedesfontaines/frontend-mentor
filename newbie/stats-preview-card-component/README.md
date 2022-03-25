@@ -7,7 +7,7 @@
 Hey there! :upside_down_face:
 
 
-Thank you for taking a look at my solution to Frontend Mentor's <a href ="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" target="_blank">stats preview card component challenge</a>.
+Thank you for taking a look at my solution to Frontend Mentor's [stats preview card component challenge](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
 
 
 Please feel free to share your feedback and let me know how I might improve this iteration.
@@ -57,4 +57,4 @@ I learnt the basics of using Bash and the command line.
 
 ## Solution
 
-<a href="https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/" target="_blank">Live site URL</a>
+[Live site URL](https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/).
