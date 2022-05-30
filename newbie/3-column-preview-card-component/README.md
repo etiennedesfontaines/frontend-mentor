@@ -1,72 +1,28 @@
-# Frontend Mentor - 3-column preview card component solution
-
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
-
-Frontend Mentor challenges are aimed at improving coding skills by challenging its users to build projects from realistic briefs.
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Solution screenshot](#solution-screenshot)
-  - [Project links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
-
-A challenge to build a card componenet to a client's Brief. Solution coded by Etienne Desfontaines, using HTML and Sass.
-
-### The challenge
-
-Build out this card componenet and get it looking as close to the [design](./design) as possible - use any tools you like.
-
-Follow the supplied [style guide.](./style-guide.md)
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size.
-
-- See hover states for interactive elements.
-
-### Solution screenshot
+# 3-column preview card component - Frontend Mentor
 
 ![](./screenshots/3-column-preview-card-component-desktop-screenshot.png)
 
-### Links
+## Intro
 
-- Solution URL: [Solution URL](https://github.com/etiennedesfontaines/frontend-mentor/tree/readme/newbie/3-column-preview-card-component-main)
+Hey there! :wave:
 
-- Live Site URL: [Live site URL](https://3-column-preview-card-component-solution-etiennedesfontaines.netlify.app/)
+Thanks for checking out my solution to Frontend Mentor's [3-column preview card component challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
 
-## My process
+Please feel free to share your feedback and let me know how I might improve this iteration.
 
-1. Create new Github repo branch.
-2. Paper-sketch project overview.
-3. Structure HTML (semantically).
-4. Styling (Sass).
-5. Responsiveness (media queries).
-6. Deploy site (Netlify).
-7. Readme.
-8. Push to github and submit on frontend mentore.
+## Overview
 
-### Built with
+For this challenge, I used...
 
 - Semantic HTML5 markup
-- SCSS custom properties
+- Sass
 - Flexbox
-- Desktop-first workflow
 
-### What I learned
+## What I learnt
 
 Sass basics:
 
--Partials
+- Partials
 A partial is a Sass file named with a leading underscore. e.g
 \_global.scss
 \_desktop.scss
@@ -78,13 +34,13 @@ A partial is a Sass file named with a leading underscore. e.g
 @import "mobile";
 ```
 
--Variables
+- Variables
 
 ```scss
 $variable-name: hsl(31, 77%, 52%);
 ```
 
--Mixins
+- Mixins
 Mixins allows the grouping of css variables that you want to reuse throught your site.
 
 A mixin is declared as follows:
@@ -105,7 +61,7 @@ A mixin is called as follows:
 @include flex(column, center, stretch, wrap);
 ```
 
--Nesting
+- Nesting
 
 ```scss
 .suv {
@@ -125,26 +81,8 @@ A mixin is called as follows:
 }
 ```
 
-### Continued development
+## Solution
 
-1. I would like to become more familiar with Sass, and fluent in using it. It is an extremely concise way to write CSS and the compiler esures any styles declared are widely compatible.
+- [Live site URL](https://3-column-preview-card-component-solution-etiennedesfontaines.netlify.app/)
 
-2. Continue challenging myslef with Frontend Mentore challenges.
-
-3. Make time for code reviews.
-
-4. Become active in dev communities.
-
-### Useful resources
-
-- [Sass basics](https://sass-lang.com/guide) - This document is a concise outline of all the basics needed to start writing Sass. I strongly recommend it as a powerful time saving, compatability ensuring styling tool.
-
-## Author
-
-- Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
-- GitHub - [etiennedesfontaines](https://github.com/etiennedesfontaines)
-- Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-
-## Acknowledgments
-
-To the dev community as a whole - Thank you for all the incredible resources that make self-study possible.
+- [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-using-sass-RbzOWpSuF)

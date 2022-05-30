@@ -1,7 +1,6 @@
-# Frontend Mentor - FAQ accordion card solution
+# Stats preview card component - Frontend Mentor
 
-This is a solution to the [FAQ accordion card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-card-XlyjD0Oam).
-Frontend Mentor challenges are aimed at improving coding skills by challenging it's users to build projects from realistic briefs.
+![](./screenshots/stats-preview-component-desktop-screenshot.png)
 
 ## Table of contents
 

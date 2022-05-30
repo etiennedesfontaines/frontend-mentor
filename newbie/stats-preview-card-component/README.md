@@ -57,4 +57,6 @@ I learnt the basics of using Bash and the command line.
 
 ## Solution
 
-[Live site URL](https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/).
+- [Live site URL](https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/).
+
+- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-statspreviewcardcomponent-elHzk40GM).
