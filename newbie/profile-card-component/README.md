@@ -56,3 +56,4 @@ To the dev community as a whole - Thank you for all the incredible resources tha
 
 - Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
 - Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
+- Other social...
