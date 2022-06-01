@@ -1,4 +1,4 @@
-# Profile card component solution
+# Stats preview card component solution
 
 ![](./screenshots/stats-preview-component-desktop-screenshot.png)
 
@@ -69,8 +69,8 @@ Setting an images width to 100% and height to auto maintains the images aspect r
 
 ```CSS
 img{
-  width: 100%;
-  height: auto;
+width: 100%;
+height: auto;
 }
 ```
 
