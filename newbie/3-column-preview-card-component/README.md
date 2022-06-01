@@ -55,13 +55,13 @@ I followed a mobile first approach for my CSS styling.
   \_desktop.scss
   \_mobile.scss
 
-Partials can be imported to structure your styling into easy to find categories. They keep your code relevant and concise.
+  Partials can be imported to structure your styling into easy to find categories. They keep your code relevant and concise.
 
-```scss
-@import "global";
-@import "desktop";
-@import "mobile";
-```
+  ```scss
+  @import "global";
+  @import "desktop";
+  @import "mobile";
+  ```
 
 - Variables
   Help avoid verbose code and make changing styling properties accross large projects very efficient.
