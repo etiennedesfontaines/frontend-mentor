@@ -17,7 +17,9 @@
 A challenge to build a card componenet to a client's Brief.
 
 Use any tools to actualize this [design](./design).
+
 Please be sure to follow the supplied [style guide.](./style-guide.md).
+
 Users should be able to view the optimal layout depending on their device's screen size.
 
 ### Links
@@ -36,7 +38,8 @@ Users should be able to view the optimal layout depending on their device's scre
 ### Created a project overview as a sketch on paper.
 
 I find skething a build before executing it helps me approach it with a difinitive plan.
-It allows me to consider the project as a whole - semantics, styling, funcionality and user experience. I believe it guides me to deeper learning and a more succesful outcome than I experience when I don't start with a sketch.
+It allows me to consider the project as a whole, considering semantics, styling, funcionality and user experience.
+I believe it guides me to deeper learning and a more succesful outcome than I experience if I don't start with a sketch.
 
 #### HTML structure
 
@@ -52,7 +55,8 @@ I followed a mobile first approach for my CSS styling.
 ## What I learned
 
 I still have a lot to learn about making designs responsive, whilst keeping my code concise.
-I noticed I was using far too many media queries, but I persisted and am proud of what I accomplished. I found a far more eloquent responsiveness solution, using...
+
+I noticed I was using far too many media queries, but I persisted and am proud of what I accomplished. I found a far more elogant solution though, using...
 
 ## Acknowledgments
 
