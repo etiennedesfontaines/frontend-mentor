@@ -9,10 +9,8 @@
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
-- [Useful resources](#useful-resources)
-- [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [Author](#etienne-desfontaines)
 
 ## Overview
 
@@ -29,6 +27,13 @@ Users should be able to:
 
 - Live Site URL: [live site URL](https://profile-card-component-solution-etiennedesfontaines.netlify.app/)
 
+## Built with
+
+- Semantic HTML5
+- CSS (Compiled with Sass)
+  - Flexbox
+  - CSS Grid
+
 ## My process
 
 ### Created a project overview as a sketch on paper.
@@ -39,23 +44,16 @@ Users should be able to:
 
 Responsiveness - mobile first approach
 
-## Built with
-
-- Semantic HTML5
-- CSS (Compiled with Sass)
-  - Flexbox
-  - CSS Grid
-
 ## What I learned
 
 To make some designs responsive is more challenging. It requires attention to detail with proficient use of media queries.
 
-## Etienne Desfontaines - Social
-
-- Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
-- GitHub - [etiennedesfontaines](https://github.com/etiennedesfontaines)
-- Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-
 ## Acknowledgments
 
 To the dev community as a whole - Thank you for all the incredible resources that make self-study possible.
+
+## Etienne Desfontaines
+
+- Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
+- Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
+- Other social...
