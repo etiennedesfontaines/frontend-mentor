@@ -1,38 +1,70 @@
-# Stats preview card component - Frontend Mentor
+# Profile card component solution
 
 ![](./screenshots/stats-preview-component-desktop-screenshot.png)
 
-## Intro
+## Table of contents
 
-Hey there! :upside_down_face:
-
-
-Thank you for taking a look at my solution to Frontend Mentor's [stats preview card component challenge](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62).
-
-
-Please feel free to share your feedback and let me know how I might improve this iteration.
+- [Overview](#overview)
+- [Project links](#links)
+- [Built with](#built-with)
+- [My process](#my-process)
+- [What I learned](#what-i-learned)
+- [Acknowledgments](#acknowledgments)
+- [Author](#etienne-desfontaines)
 
 ## Overview
 
-For this challenge, I used...
+A challenge to build a Stats preview card component.
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+Use any tools to actualize this [design](./design).
 
-## What I learnt
+Please be sure to follow the supplied [style guide.](./style-guide.md).
 
-General:
+Users should be able to view the optimal layout depending on their device's screen size.
+
+### Links
+
+- [Live site URL](https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/).
+
+## Built with
+
+- Semantic HTML5
+- CSS
+  - Flexbox
+  - CSS Grid
+
+## My process
+
+### I created a project overview as a sketch on paper.
+
+I find skething a build before executing it helps me approach it with a difinitive plan.
+It allows me to consider the project as a whole, considering semantics, styling, funcionality and user experience.
+I believe it guides me to deeper learning and a more succesful outcome than I experience if I don't start with a sketch.
+
+#### HTML structure
+
+I considered my HTML from two angles:
+
+- Semantically to increase accessibility and aid search engine optimisation.
+- Structurly, to ensure that it makes creating the supplied design as easy as possible.
+
+#### CSS styling
+
+I followed a mobile first approach for my CSS styling.
+
+## What I learned
+
+### General
 
 It's beneficial to plan a project before initiating the build, because a good plan can help infrom the HTML semantics and structure, and make writing CSS a far smoother process.
 
-Process documentation is a valuable skill and useful learning tool.
-I found the practice of documenting my process made me more aware of where I struggled, why I struggled and what I learn't along the way.
+Process documentation is a valuable skill and a useful learning tool.
+I found the practice of documenting my process made me more aware of where I struggled, why I struggled and what I learn't along the way. And it ultimately helped me find my final solution.
 
-CSS:
+### CSS
 
 Image aspect ratio:
+
 Setting an images width to 100% and height to auto maintains the images aspect ratio.
 
 ```CSS
@@ -44,19 +76,27 @@ img{
 
 The CSS Box model:
 
-I learnt that all CSS elements are surrounded by a box which affects how they behave.
-I've found that understanding the different CSS box models (standard and alternate), along with their anatomy (margin, border, padding, content), and learning the behavioral characteristics of the different box types (block, inline, inline-block, flex and grid) has made the results of CSS style declarations far more predictable.
+I learned that all CSS elements are surrounded by a box which affects how they behave.
 
-Git and Github:
+Understanding the different CSS box models (standard and alternate), along with their anatomy (margin, border, padding, content), and how they behave differently relative to which box box type (block, inline, inline-block, flex and grid) is applied, made my CSS styling far more predictable.
 
-I learnt to Create repositories and pull requests.
+### Git and Github
 
-Bash and CLI:
+I learned to create repositories, push edits and pull and commit requests.
 
-I learnt the basics of using Bash and the command line.
+### Bash and the CLI
 
-## Solution
+I learned the basics of Bash and how to navigate my local drives and file structures using the command line.
 
-- [Live site URL](https://stats-preview-card-component-solution-etiennedesfontaines.netlify.app/).
+And how to utalise the command line with github.
 
-- [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-statspreviewcardcomponent-elHzk40GM).
+## Acknowledgments
+
+The dev community as a whole, for all the incredible documentation and information that makes learning frontend development possible.
+
+## Etienne Desfontaines
+
+- Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
+
+- Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
+- Other social...
