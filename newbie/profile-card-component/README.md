@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Solution screenshot
 
-[](./screenshots/profile-card-component-screenshot.png)
+![](./screenshots/profile-card-component-screenshot.png)
 
 ### Links
 
