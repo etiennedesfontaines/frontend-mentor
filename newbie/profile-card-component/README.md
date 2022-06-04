@@ -29,9 +29,9 @@ Users should be able to view the optimal layout depending on their device's scre
 ## Built with
 
 - Semantic HTML5
-- CSS (Compiled with Sass)
+- Sass
   - Flexbox
-  - CSS Grid
+  - Grid
 
 ## My process
 

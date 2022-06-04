@@ -31,7 +31,7 @@ Users should be able to view the optimal layout depending on their device's scre
 - Semantic HTML5
 - CSS
   - Flexbox
-  - CSS Grid
+  - Grid
 
 ## My process
 
@@ -99,4 +99,3 @@ The dev community as a whole, for all the incredible documentation and informati
 - Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
 
 - Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-- Other social...
