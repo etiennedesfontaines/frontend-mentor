@@ -29,7 +29,7 @@ Users should be able to view the optimal layout depending on their device's scre
 ## Built with
 
 - Semantic HTML5
-- CSS (Sass compiled)
+- Sass
   - Flexbox
 
 ## My process
