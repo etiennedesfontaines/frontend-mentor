@@ -37,9 +37,9 @@ Users should be able to view the optimal layout depending on their device's scre
 
 ### I created a project overview as a sketch on paper.
 
-I find skething a build before executing it helps me approach it with a difinitive plan.
-It allows me to consider the project as a whole, considering semantics, styling, funcionality and user experience.
-I believe it guides me to deeper learning and a more succesful outcome than I experience if I don't start with a sketch.
+I find sketching a build before executing it helps me approach it with a definitive plan.
+It allows me to consider the project as a whole, considering semantics, styling, functionality and user experience.
+I believe it guides me to deeper learning and a more successful outcome than I experience if I don't start with a sketch.
 
 #### HTML structure
 
@@ -56,7 +56,7 @@ I followed a mobile first approach for my CSS styling.
 
 ### General
 
-It's beneficial to plan a project before initiating the build, because a good plan can help infrom the HTML semantics and structure, and make writing CSS a far smoother process.
+It's beneficial to plan a project before initiating the build, because a good plan can help inform the HTML semantics and structure, and make writing CSS a far smoother process.
 
 Process documentation is a valuable skill and a useful learning tool.
 I found the practice of documenting my process made me more aware of where I struggled, why I struggled and what I learn't along the way. And it ultimately helped me find my final solution.
@@ -65,7 +65,7 @@ I found the practice of documenting my process made me more aware of where I str
 
 Image aspect ratio:
 
-Setting an images width to 100% and height to auto maintains the images aspect ratio.
+Setting an image's width to 100% and height to auto maintains the image's aspect ratio.
 
 ```CSS
 img{
@@ -88,7 +88,7 @@ I learned to create repositories, push edits and pull and commit requests.
 
 I learned the basics of Bash and how to navigate my local drives and file structures using the command line.
 
-And how to utalise the command line with github.
+And how to utilise the command line with github.
 
 ## Acknowledgments
 

@@ -16,7 +16,7 @@
 
 A challenge to build a 3-column preview card component.
 
-Use any tools to actualize this [design](./design).
+Use any tools necessary to actualize this [design](./design).
 
 Please be sure to follow the supplied [style guide.](./style-guide.md).
 
@@ -64,12 +64,12 @@ I followed a mobile first approach for my CSS styling.
   ```
 
 - Variables
-  Help avoid verbose code and make changing styling properties accross large projects very efficient.
+  Help avoid verbose code, allow for prompt reuse of a particular style and make changing style properties across large projects very efficient.
   ```scss
   $variable-name: hsl(31, 77%, 52%);
   ```
 - Mixins
-  Mixins allow the grouping of css variables that you want to reuse throughout your site.
+  Mixins facilitate the grouping of css variables that you want to utilise repeatedly.
 
   A mixin is declared as follows:
 
@@ -111,11 +111,10 @@ I followed a mobile first approach for my CSS styling.
 
 ## Acknowledgments
 
-The Sass team for the great documentation and an awsome CSS compiler. It makes browser compatibility a breeze.
+The Sass team for the great documentation and an awesome CSS compiler. It makes browser compatibility a breeze.
 
 ## Etienne Desfontaines
 
 - Frontend Mentor - [@etiennedesfontaines](https://www.frontendmentor.io/profile/etiennedesfontaines)
 
 - Exercism - [Etienne Desfontaines](https://exercism.io/profiles/etiennedesfontaines)
-- Other social...
