@@ -1,6 +1,6 @@
 # 3-column preview card component solution
 
-![](./screenshots/3-column-preview-card-component-desktop-screenshot.png)
+![](./3-column-preview-card-component-screenshot.png)
 
 ## Table of contents
 
